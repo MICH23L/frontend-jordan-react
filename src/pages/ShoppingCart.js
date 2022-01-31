@@ -59,7 +59,7 @@ function ShoppingCartPage() {
 
       {shoppingCartTotal === 0 ? (
         <div className="shopping-cart-total">
-          There's no items in the shopping cart yet.
+          You don't have any items in your shopping cart yet.
         </div>
       ) : null}
       <hr className="solid"></hr>
